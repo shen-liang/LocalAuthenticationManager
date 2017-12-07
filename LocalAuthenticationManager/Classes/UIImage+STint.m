@@ -6,7 +6,7 @@
 //
 
 #import "UIImage+STint.h"
-#import "SCustomKeyboardView.h"
+#import "LAVerifyView.h"
 
 @implementation UIImage (STint)
 
@@ -59,7 +59,7 @@
 
 + (UIImage *)getRdImageResourceBundleWithName:(NSString *)name
 {
-    NSURL *url = [[NSBundle bundleForClass:[SCustomKeyboardView class]] URLForResource:@"SCustomKeyBoard" withExtension:@"bundle"];
+    NSURL *url = [[NSBundle bundleForClass:[LAVerifyView class]] URLForResource:@"LocalAuthenticationManager" withExtension:@"bundle"];
     NSBundle *imageBundle = [NSBundle bundleWithURL:url];
     
     NSString *path = [imageBundle pathForResource:name ofType:@"png"];
