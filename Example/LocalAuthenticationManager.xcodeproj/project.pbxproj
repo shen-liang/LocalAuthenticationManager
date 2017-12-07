@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		118612B47379853C3C59220C /* LocalAuthenticationManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocalAuthenticationManager.podspec; path = ../LocalAuthenticationManager.podspec; sourceTree = "<group>"; };
-		12FC4B5E3DABCE7FE59C1D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		118612B47379853C3C59220C /* LocalAuthenticationManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocalAuthenticationManager.podspec; path = ../LocalAuthenticationManager.podspec; sourceTree = "<group>"; };
+		12FC4B5E3DABCE7FE59C1D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		20537A4A226673A64DD15793 /* Pods_LocalAuthenticationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalAuthenticationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LocalAuthenticationManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalAuthenticationManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		D2BE118295794C8CE826FF37 /* Pods-LocalAuthenticationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalAuthenticationManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalAuthenticationManager_Example/Pods-LocalAuthenticationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D69C4D4F3416AEC146F06D87 /* Pods_LocalAuthenticationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalAuthenticationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F1A4B0BFCD480023574DC3 /* Pods-LocalAuthenticationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalAuthenticationManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalAuthenticationManager_Tests/Pods-LocalAuthenticationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F78935C058C27FCD76411091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F78935C058C27FCD76411091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "490712370@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K8L9L834N7;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -386,10 +390,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LocalAuthenticationManager_Example/Pods-LocalAuthenticationManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LocalAuthenticationManager/LocalAuthenticationManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocalAuthenticationManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,12 +541,17 @@
 			baseConfigurationReference = D2BE118295794C8CE826FF37 /* Pods-LocalAuthenticationManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8L9L834N7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalAuthenticationManager/LocalAuthenticationManager-Prefix.pch";
 				INFOPLIST_FILE = "LocalAuthenticationManager/LocalAuthenticationManager-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +561,16 @@
 			baseConfigurationReference = A7FA32AB60DEEC0B2561E8F5 /* Pods-LocalAuthenticationManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8L9L834N7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalAuthenticationManager/LocalAuthenticationManager-Prefix.pch";
 				INFOPLIST_FILE = "LocalAuthenticationManager/LocalAuthenticationManager-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

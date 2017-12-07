@@ -9,5 +9,6 @@
 @import UIKit;
 
 @interface RDViewController : UIViewController
+- (IBAction)validButton:(id)sender;
 
 @end

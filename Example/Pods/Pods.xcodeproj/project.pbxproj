@@ -1,0 +1,1380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091E6BF3EBBE8A74F61DD6CD1C64548 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E02B3B6BFB0AD9ABD4EDB7ACE8600F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0764C110E14403C834CD76C04A014F29 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1712277A7F751B50B8A5F54E767F8C08 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C10CEF2496494808A090F96E1369AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */; };
+		110F540AE1BE85E4DAD7150FEC9A5AAD /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6D2F13991D78E9A5D06E0D4889C7D /* MASViewConstraint.m */; };
+		197642D1D3CED4B20133F1AAB0F4AD32 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D08F87533D463A804C96EAB1C0C80D3A /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CAD5A867E7C941E8189235D4537DCBD /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E938D4ED843E7D91274DE8E7C22B496E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DC4BDE15BBE3062ABEBA3D603A32B9 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD0DF900C3A6949E7F925982D622D77 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A34AFF5A25B86977E853D24DA82B55 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B5AE2DD99C98262CCBFDC23FDB2D4F /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282A2BB003968A396CAB479D74BB06AE /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BA03E982E74B65EA76061A02C07A7268 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285A3AEC99FC8F9D304F9A3F3A38D722 /* Pods-LocalAuthenticationManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41134F870870FCDD69900B7FEBECA3F2 /* Pods-LocalAuthenticationManager_Tests-dummy.m */; };
+		2D2CC94226143186C554E7CAB7F8AA9C /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EEAA8EE9D58EED5488EB5652750A04 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA77ADB2A45BB4C2B667B572F95935C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */; };
+		3147B8FEF0D607CD7D6EF911539DF3EA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADA89A83F1B4AC2F73C7FD7AC8CD9D2 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A5FCA6ADE6B088010B7C1C76F78A60 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E2E71C94228D9EC6BE59717FEEDA0D /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3298400205C1F2F07B2D468819F18EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0C9863D175D117FFDBC77AC42AC2F5 /* UIKit.framework */; };
+		336F7DB3F6157214E94F8C3AFBBA4640 /* Pods-LocalAuthenticationManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7340597FC261E0C2F24BE8E4808080D /* Pods-LocalAuthenticationManager_Example-dummy.m */; };
+		33BA3076698BD92F00C388403A187877 /* fingerprint.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B78824FD4EB08093CA65EF470FF1A81 /* fingerprint.png */; };
+		367C42CF28E29731A01AD25519F8A510 /* LAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD828E5EC474BE396ADB52952D9541 /* LAManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B432103EE73A780E7D5A1998D6D9B5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BB41C02FCA7483703083EFF9C3105A8D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DDF50AF47A54A77FE0933E1B92F35C0 /* UIImage+STint.h in Headers */ = {isa = PBXBuildFile; fileRef = B443737396649D91D73A22E26516B277 /* UIImage+STint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411F00FA810620BAB6BDC4CEAE81FCAF /* LocalAuthenticationManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F17F3AA58071AEBE43A21250DAFD3 /* LocalAuthenticationManager.bundle */; };
+		442B6C376450E0587A487D17954A1D84 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EFFF4AC12FEAA6FEF4945C3A9E2880 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570FC5897DB8D61080167A39C987DE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */; };
+		5C07BE8A63CCD2FB0BC38CDA5900C614 /* UIImage+STint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447A203FBC73C499C72C88F47FD11B7 /* UIImage+STint.m */; };
+		5FF907188881D335F50259F9D6EFF7C7 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D92C848892C3088D19378E7639D0D6F1 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6391BC3CCEEBD6439788DEC605CB587B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 773BCDE12604F6D2064F1F1F5484E2A9 /* MASCompositeConstraint.m */; };
+		6950A872B330E40912B74C7877F3E905 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24568DCA0CB1D87504549003EDD4177D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		69C96A36CB38BE998C68CF1DBCB5C271 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 351D7275D482E5516A807A7F02339C2A /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECB022766A955411E0481328CC9284A /* Pods-LocalAuthenticationManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3617C82512C25960113C13C836C38D /* Pods-LocalAuthenticationManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7626597A38C3402D5B5D627131A6A033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */; };
+		7D0D7F1C1EF2A9C6ED121BD1D4D5CF6B /* LAVerifyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 337CF22C8F649408156B8FD6984D6126 /* LAVerifyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8156F58D3F415214BE078C9D1635CC65 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9038259E8B5EF9ABFBF4F20DDE45F87 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D537F0CDE42B0FF914B493A67D4D40 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5741A7DDA34E8CFA3DE79BAE7300E4C7 /* ViewController+MASAdditions.m */; };
+		84CC6E705EDE6F77EB78EBF733CB31FC /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC068A63862FCE482CCA1BFA275944D /* Masonry.framework */; };
+		8545FD104C075BF245F36ABAD821FAC5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EFD3D5CB4C4B3AB3AFAEE31FBF8555 /* SVRadialGradientLayer.m */; };
+		85534D5FB0BDEB45D597132E16F2F672 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C34CDCB1D4C1AD272AD9C24DC58C8C29 /* MASConstraint.m */; };
+		8C70FFBDF1ACF2D5DD646B9DE5C6D0EA /* LAVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D98D499F1A3DE952B0B82A64CE880 /* LAVerifyView.m */; };
+		8EDCAC485E97F61461C14050619DABBB /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D28F3924BDE0018D7086EDEF02C838 /* SVProgressHUD.framework */; };
+		9477A2BEFFBF82B53C07990C02694AA1 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4467DBD3D29C8397FEA08083D73F4A /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98114567C7E79A6FF583974E4A929C98 /* LAVerifyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A537CD10BC2A7BF6A2408B8CB3503B72 /* LAVerifyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996EDC9B73135F618DAB3DEEE3610E25 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 314027C249A63F3876ACD126D6F892D3 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99DABCCA4DAC8A0856EC68264D1D1E00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E80B691D44D51DCBC9CFF9A7A88FFDA /* SVIndefiniteAnimatedView.m */; };
+		A1E96A90B97FD28BE16B238E9FBECD52 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FF45EA9AF0505D59786E3C173F14B56 /* SVProgressHUD.bundle */; };
+		A606CFCE907B170A160507D3727E3B8E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C2323226B7ED9F62DBC7B381A5E9ECBC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17661C02BA1D823CC9E62E50F22200F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3054179E75A6AB6392EA94E0AF755A /* Masonry-dummy.m */; };
+		BA9C62C3F53B1D1A4778019216674AB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B16705E13894A0C5DEA6409FDDAE06 /* QuartzCore.framework */; };
+		BEA278BDDA9E80D228527800FED19026 /* LAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F654C73CD1163179B56B2984900A218C /* LAManager.m */; };
+		BF1F4B54FF354273B6B1FF37268C0BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */; };
+		C520D099CAA947C7BD9FAD622011D0E0 /* LocalAuthenticationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C17FCEBFD5584676BCCD51184225EBC /* LocalAuthenticationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C665BF02DB1DC5189887B55C4E17D556 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD53FC13E116468F563E78D9D14C10 /* MASLayoutConstraint.m */; };
+		C6F787E8A903EC54BFAB54DE925F0894 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2057FFF1E49701469B20AB34D9EA7E4F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA679B85677F74E4F11F21CC4B8690CB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5D3754EA31B19AF0411304120F41F /* MASConstraintMaker.m */; };
+		CAD9B78932A5374317F5EDF11AC16190 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971326108ED69C31887C9C933D189F2 /* MASViewAttribute.m */; };
+		CAF5EB12E7301369FED0683BE2383153 /* LocalAuthenticationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 075219170621BB400F494476EEA762ED /* LocalAuthenticationManager-dummy.m */; };
+		CCB2ED6168ABB7400C45D3663A33B4C2 /* LAVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721C69C64EAF3B08AE089C04ACA42224 /* LAVerifyViewController.m */; };
+		D76D386C513549697178C33E769DB97F /* Pods-LocalAuthenticationManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5F47AE694B9BF07A4D27B10455C323 /* Pods-LocalAuthenticationManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEADD809E0ABDBD17504527753E37F58 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40B133AC641402EF254047C1F73173 /* NSArray+MASAdditions.m */; };
+		DFF74C46284D46698B85486A1472913D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B14AACCD8BDACDB415D4E897EF045 /* SVProgressAnimatedView.m */; };
+		ECA83DFCFDA50208FAB946F9295C2FB3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA0FF3CD35DB7763943C171704D7C3 /* View+MASAdditions.m */; };
+		EFFAB140181136CB06FB011B05CAF0D6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4C61CF7C653DFD1F34DCBB72E9EF96 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22CB71FE9D3D0DB822A87985E3BE547 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FC089FB6F2003DF212D08900DB72DA /* SVProgressHUD.m */; };
+		FB0998C00A744F6A6C4150C8B841D036 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E99F28F89B230D078E24ABEED1F924ED /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE4E5EF3C2064072EA09417D4C8D656 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B7FFD911A433EB5B2447F1568EF76A /* SVProgressHUD-dummy.m */; };
+		FF7037AF4867297C6B815381DFFB23A8 /* account_pic_head.png in Resources */ = {isa = PBXBuildFile; fileRef = AB382D579A5700D04BB2488E47BAAB5D /* account_pic_head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27828259F3E8C3AFFD47EFE6734D345D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4817CD90113C2DF971529CBC048E7BB;
+			remoteInfo = SVProgressHUD;
+		};
+		48BC3FD889BB075884F785FFA1DB9845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27FF8429DAF30ACF1723C1286914E41;
+			remoteInfo = Masonry;
+		};
+		5E3729BC98A79B1650F5AC8212DB7057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B264FBC04B65BE4057728E4C7F20CE21;
+			remoteInfo = LocalAuthenticationManager;
+		};
+		BAC5C027124474D3804A87782009B233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4817CD90113C2DF971529CBC048E7BB;
+			remoteInfo = SVProgressHUD;
+		};
+		C5B25BFE52D703476789C9F35A82225D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27FF8429DAF30ACF1723C1286914E41;
+			remoteInfo = Masonry;
+		};
+		F928E57C59DE83DC13C6ED495899308E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D975CC9677870653D77A38349A465E;
+			remoteInfo = "LocalAuthenticationManager-LocalAuthenticationManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0675884C6B44552E0196212AD8404490 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		06D28F3924BDE0018D7086EDEF02C838 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		075219170621BB400F494476EEA762ED /* LocalAuthenticationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalAuthenticationManager-dummy.m"; sourceTree = "<group>"; };
+		0814CBF60402CF837DAED93A7A2DD903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5F47AE694B9BF07A4D27B10455C323 /* Pods-LocalAuthenticationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalAuthenticationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1447A203FBC73C499C72C88F47FD11B7 /* UIImage+STint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+STint.m"; path = "LocalAuthenticationManager/Classes/UIImage+STint.m"; sourceTree = "<group>"; };
+		15B6D2F13991D78E9A5D06E0D4889C7D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		16375920A0B492E1CF27D42D5F578494 /* Pods-LocalAuthenticationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LocalAuthenticationManager_Example.modulemap"; sourceTree = "<group>"; };
+		1712277A7F751B50B8A5F54E767F8C08 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		1A1C98856A50FC4815738E95DBDF9230 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D288CCDC72B4348697CF85D1F219236 /* Pods-LocalAuthenticationManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalAuthenticationManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1F4467DBD3D29C8397FEA08083D73F4A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		2057FFF1E49701469B20AB34D9EA7E4F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		20B5AE2DD99C98262CCBFDC23FDB2D4F /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		20FD237EE82D14B1FA8628F0DE6C6026 /* Pods-LocalAuthenticationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalAuthenticationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22CD828E5EC474BE396ADB52952D9541 /* LAManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LAManager.h; path = LocalAuthenticationManager/Classes/LAManager.h; sourceTree = "<group>"; };
+		24568DCA0CB1D87504549003EDD4177D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		29B7FFD911A433EB5B2447F1568EF76A /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2A00F842BD738E0DF4650E02A3EA650D /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2ADA89A83F1B4AC2F73C7FD7AC8CD9D2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2DCE5EBC12E860BACB13C77637ED31A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314027C249A63F3876ACD126D6F892D3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		337CF22C8F649408156B8FD6984D6126 /* LAVerifyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LAVerifyView.h; path = LocalAuthenticationManager/Classes/LAVerifyView.h; sourceTree = "<group>"; };
+		351D7275D482E5516A807A7F02339C2A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		3B0C9863D175D117FFDBC77AC42AC2F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D40B133AC641402EF254047C1F73173 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		3F3054179E75A6AB6392EA94E0AF755A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		41134F870870FCDD69900B7FEBECA3F2 /* Pods-LocalAuthenticationManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalAuthenticationManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		4775D100AA5A196B0EA3A77EC76A3B8A /* Pods_LocalAuthenticationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalAuthenticationManager_Tests.framework; path = "Pods-LocalAuthenticationManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E02B3B6BFB0AD9ABD4EDB7ACE8600F /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		4F7D98D499F1A3DE952B0B82A64CE880 /* LAVerifyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LAVerifyView.m; path = LocalAuthenticationManager/Classes/LAVerifyView.m; sourceTree = "<group>"; };
+		4FF45EA9AF0505D59786E3C173F14B56 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		53EFFF4AC12FEAA6FEF4945C3A9E2880 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		5741A7DDA34E8CFA3DE79BAE7300E4C7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		58E9D3AB7F354D07C0AD9557FC9C7C26 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		5A8F17F3AA58071AEBE43A21250DAFD3 /* LocalAuthenticationManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LocalAuthenticationManager.bundle; path = LocalAuthenticationManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAD53FC13E116468F563E78D9D14C10 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6239589DF36884F243D7E32B24B09325 /* LocalAuthenticationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalAuthenticationManager-prefix.pch"; sourceTree = "<group>"; };
+		63C8EFA021A6B0054E4299B4C608A81B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		65EA0FF3CD35DB7763943C171704D7C3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		68693194AD734C6DA938BF12FB0A0DDF /* Pods-LocalAuthenticationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalAuthenticationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6971326108ED69C31887C9C933D189F2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		721C69C64EAF3B08AE089C04ACA42224 /* LAVerifyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LAVerifyViewController.m; path = LocalAuthenticationManager/Classes/LAVerifyViewController.m; sourceTree = "<group>"; };
+		773BCDE12604F6D2064F1F1F5484E2A9 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7B78824FD4EB08093CA65EF470FF1A81 /* fingerprint.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fingerprint.png; path = LocalAuthenticationManager/Assets/fingerprint.png; sourceTree = "<group>"; };
+		7B7B14AACCD8BDACDB415D4E897EF045 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		7D62D31747C850F7AA10D7C59640503F /* Pods-LocalAuthenticationManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalAuthenticationManager_Example-resources.sh"; sourceTree = "<group>"; };
+		84611ADC634364798C0867146D990F96 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FC089FB6F2003DF212D08900DB72DA /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		8763D3329B3FE9FC5774D02B82BA762F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EFD3D5CB4C4B3AB3AFAEE31FBF8555 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		8BB40DAB4BB1CC26FF81BDE32F1F6DD8 /* Pods-LocalAuthenticationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalAuthenticationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C17FCEBFD5584676BCCD51184225EBC /* LocalAuthenticationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalAuthenticationManager-umbrella.h"; sourceTree = "<group>"; };
+		8E80B691D44D51DCBC9CFF9A7A88FFDA /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		8ECE5BC91285264063CF9461CFBBA145 /* Pods-LocalAuthenticationManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalAuthenticationManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D21BD3A230C34F07552C03643C9B15 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		A537CD10BC2A7BF6A2408B8CB3503B72 /* LAVerifyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LAVerifyViewController.h; path = LocalAuthenticationManager/Classes/LAVerifyViewController.h; sourceTree = "<group>"; };
+		A5B01C53D20A9891B8C7102C50FEF748 /* Pods-LocalAuthenticationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalAuthenticationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6B5D3754EA31B19AF0411304120F41F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		AB382D579A5700D04BB2488E47BAAB5D /* account_pic_head.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = account_pic_head.png; path = LocalAuthenticationManager/Assets/account_pic_head.png; sourceTree = "<group>"; };
+		AB4C61CF7C653DFD1F34DCBB72E9EF96 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		B4125982559F7551735E193D3D53B565 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		B443737396649D91D73A22E26516B277 /* UIImage+STint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+STint.h"; path = "LocalAuthenticationManager/Classes/UIImage+STint.h"; sourceTree = "<group>"; };
+		B5E2E71C94228D9EC6BE59717FEEDA0D /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B9EEAA8EE9D58EED5488EB5652750A04 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		BA03E982E74B65EA76061A02C07A7268 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BB41C02FCA7483703083EFF9C3105A8D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		BC3617C82512C25960113C13C836C38D /* Pods-LocalAuthenticationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalAuthenticationManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		C2323226B7ED9F62DBC7B381A5E9ECBC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C34CDCB1D4C1AD272AD9C24DC58C8C29 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CAC7E7DAD5C16A7663FC9A5F4E5E7FC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2FD45DA9FF3EF230BD1F594C9DA687 /* Pods-LocalAuthenticationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalAuthenticationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEE69A3D72340BBE4E00A227F4AF1B1F /* Pods-LocalAuthenticationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LocalAuthenticationManager_Tests.modulemap"; sourceTree = "<group>"; };
+		D02991CB9803C1427545B1D172C9FF62 /* ResourceBundle-LocalAuthenticationManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LocalAuthenticationManager-Info.plist"; sourceTree = "<group>"; };
+		D08F87533D463A804C96EAB1C0C80D3A /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		D3AC7C969E28A7DB6E45CBD192EB5164 /* Pods-LocalAuthenticationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalAuthenticationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6B16705E13894A0C5DEA6409FDDAE06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D7340597FC261E0C2F24BE8E4808080D /* Pods-LocalAuthenticationManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalAuthenticationManager_Example-dummy.m"; sourceTree = "<group>"; };
+		D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalAuthenticationManager.xcconfig; sourceTree = "<group>"; };
+		D92C848892C3088D19378E7639D0D6F1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DDD0DF900C3A6949E7F925982D622D77 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		E09D254DD76E9BDD46FDA420E536FC30 /* Pods-LocalAuthenticationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalAuthenticationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D824EEDCC1EB9C481890F635C49C3C /* Pods-LocalAuthenticationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalAuthenticationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E6FD402B2865F51CFE8EA77F1851BD6B /* Pods_LocalAuthenticationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalAuthenticationManager_Example.framework; path = "Pods-LocalAuthenticationManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E938D4ED843E7D91274DE8E7C22B496E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		E99F28F89B230D078E24ABEED1F924ED /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F654C73CD1163179B56B2984900A218C /* LAManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LAManager.m; path = LocalAuthenticationManager/Classes/LAManager.m; sourceTree = "<group>"; };
+		F9038259E8B5EF9ABFBF4F20DDE45F87 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FBC068A63862FCE482CCA1BFA275944D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD761D1FB2FD2D2A13A6EC0EE941A6FE /* Pods-LocalAuthenticationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalAuthenticationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE2AE42215BCAFA0E1A3B161BAF98C4C /* LocalAuthenticationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalAuthenticationManager.framework; path = LocalAuthenticationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6F7E563C2C48ECDE20E90AB8E5A374 /* LocalAuthenticationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LocalAuthenticationManager.modulemap; sourceTree = "<group>"; };
+		FFB1E4F15668EF80FD41C2F4A8F07EEF /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E79FBCF240F70B4A30D2336969AE8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BDC43BC3E4F5765F7CE5ED2B874101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570FC5897DB8D61080167A39C987DE31 /* Foundation.framework in Frameworks */,
+				BA9C62C3F53B1D1A4778019216674AB3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C0612345F736A5C826AFF9EA2199E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA77ADB2A45BB4C2B667B572F95935C /* Foundation.framework in Frameworks */,
+				3298400205C1F2F07B2D468819F18EE4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D238189EE7AF990B4ADFB9E69CA1B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1F4B54FF354273B6B1FF37268C0BFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85D6395E1784A616F75E2DB7B564FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7626597A38C3402D5B5D627131A6A033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED07247937025762B35B13EDAD9A7529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C10CEF2496494808A090F96E1369AD3 /* Foundation.framework in Frameworks */,
+				84CC6E705EDE6F77EB78EBF733CB31FC /* Masonry.framework in Frameworks */,
+				8EDCAC485E97F61461C14050619DABBB /* SVProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BBFB2D05EF3214BF73C32E6335711E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FF45EA9AF0505D59786E3C173F14B56 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CACFB87391227999ED5A0E97AE9E0BB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F9038259E8B5EF9ABFBF4F20DDE45F87 /* SVIndefiniteAnimatedView.h */,
+				8E80B691D44D51DCBC9CFF9A7A88FFDA /* SVIndefiniteAnimatedView.m */,
+				2057FFF1E49701469B20AB34D9EA7E4F /* SVProgressAnimatedView.h */,
+				7B7B14AACCD8BDACDB415D4E897EF045 /* SVProgressAnimatedView.m */,
+				BB41C02FCA7483703083EFF9C3105A8D /* SVProgressHUD.h */,
+				86FC089FB6F2003DF212D08900DB72DA /* SVProgressHUD.m */,
+				1F4467DBD3D29C8397FEA08083D73F4A /* SVRadialGradientLayer.h */,
+				87EFD3D5CB4C4B3AB3AFAEE31FBF8555 /* SVRadialGradientLayer.m */,
+				1BBFB2D05EF3214BF73C32E6335711E8 /* Resources */,
+				69E863EF57F4C8B963D1E34448CA7F55 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		486F5831B7CC411BBF347749BBD14BC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				C2323226B7ED9F62DBC7B381A5E9ECBC /* MASCompositeConstraint.h */,
+				773BCDE12604F6D2064F1F1F5484E2A9 /* MASCompositeConstraint.m */,
+				E938D4ED843E7D91274DE8E7C22B496E /* MASConstraint.h */,
+				C34CDCB1D4C1AD272AD9C24DC58C8C29 /* MASConstraint.m */,
+				2ADA89A83F1B4AC2F73C7FD7AC8CD9D2 /* MASConstraint+Private.h */,
+				47E02B3B6BFB0AD9ABD4EDB7ACE8600F /* MASConstraintMaker.h */,
+				A6B5D3754EA31B19AF0411304120F41F /* MASConstraintMaker.m */,
+				D92C848892C3088D19378E7639D0D6F1 /* MASLayoutConstraint.h */,
+				5AAD53FC13E116468F563E78D9D14C10 /* MASLayoutConstraint.m */,
+				20B5AE2DD99C98262CCBFDC23FDB2D4F /* Masonry.h */,
+				D08F87533D463A804C96EAB1C0C80D3A /* MASUtilities.h */,
+				B9EEAA8EE9D58EED5488EB5652750A04 /* MASViewAttribute.h */,
+				6971326108ED69C31887C9C933D189F2 /* MASViewAttribute.m */,
+				B5E2E71C94228D9EC6BE59717FEEDA0D /* MASViewConstraint.h */,
+				15B6D2F13991D78E9A5D06E0D4889C7D /* MASViewConstraint.m */,
+				AB4C61CF7C653DFD1F34DCBB72E9EF96 /* NSArray+MASAdditions.h */,
+				3D40B133AC641402EF254047C1F73173 /* NSArray+MASAdditions.m */,
+				E99F28F89B230D078E24ABEED1F924ED /* NSArray+MASShorthandAdditions.h */,
+				BA03E982E74B65EA76061A02C07A7268 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				24568DCA0CB1D87504549003EDD4177D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DDD0DF900C3A6949E7F925982D622D77 /* View+MASAdditions.h */,
+				65EA0FF3CD35DB7763943C171704D7C3 /* View+MASAdditions.m */,
+				314027C249A63F3876ACD126D6F892D3 /* View+MASShorthandAdditions.h */,
+				351D7275D482E5516A807A7F02339C2A /* ViewController+MASAdditions.h */,
+				5741A7DDA34E8CFA3DE79BAE7300E4C7 /* ViewController+MASAdditions.m */,
+				9FC47EBDF227AB50AB0F0122CC161D38 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		5B1BDBBF56555B1EF6ABA82DA44257C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB382D579A5700D04BB2488E47BAAB5D /* account_pic_head.png */,
+				7B78824FD4EB08093CA65EF470FF1A81 /* fingerprint.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		69E863EF57F4C8B963D1E34448CA7F55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0814CBF60402CF837DAED93A7A2DD903 /* Info.plist */,
+				98D21BD3A230C34F07552C03643C9B15 /* SVProgressHUD.modulemap */,
+				B4125982559F7551735E193D3D53B565 /* SVProgressHUD.xcconfig */,
+				29B7FFD911A433EB5B2447F1568EF76A /* SVProgressHUD-dummy.m */,
+				0675884C6B44552E0196212AD8404490 /* SVProgressHUD-prefix.pch */,
+				53EFFF4AC12FEAA6FEF4945C3A9E2880 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		6E87688F9BF4D64DC399CF55EF308152 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAF412A3ED36FF0FAF3A70A5B51EA266 /* Foundation.framework */,
+				D6B16705E13894A0C5DEA6409FDDAE06 /* QuartzCore.framework */,
+				3B0C9863D175D117FFDBC77AC42AC2F5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7973BBE5ACD7E369C4446627209B5118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				486F5831B7CC411BBF347749BBD14BC7 /* Masonry */,
+				2CACFB87391227999ED5A0E97AE9E0BB /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				85ED9608ECAE712BED7178DDC40A80ED /* Development Pods */,
+				F9D687EA05C896DC4D8A4A3325D3C694 /* Frameworks */,
+				7973BBE5ACD7E369C4446627209B5118 /* Pods */,
+				DAF35B1CEC291B1D3911D422C1C01618 /* Products */,
+				C55DBF2B68DA1C75853835E896E54A3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85ED9608ECAE712BED7178DDC40A80ED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC7BE1E54D2F3EA6B3C0D66423810C /* LocalAuthenticationManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9FC47EBDF227AB50AB0F0122CC161D38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8763D3329B3FE9FC5774D02B82BA762F /* Info.plist */,
+				63C8EFA021A6B0054E4299B4C608A81B /* Masonry.modulemap */,
+				58E9D3AB7F354D07C0AD9557FC9C7C26 /* Masonry.xcconfig */,
+				3F3054179E75A6AB6392EA94E0AF755A /* Masonry-dummy.m */,
+				2A00F842BD738E0DF4650E02A3EA650D /* Masonry-prefix.pch */,
+				1712277A7F751B50B8A5F54E767F8C08 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		A49C8F4588222BE926324BCC939C6696 /* Pods-LocalAuthenticationManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A1C98856A50FC4815738E95DBDF9230 /* Info.plist */,
+				16375920A0B492E1CF27D42D5F578494 /* Pods-LocalAuthenticationManager_Example.modulemap */,
+				D3AC7C969E28A7DB6E45CBD192EB5164 /* Pods-LocalAuthenticationManager_Example-acknowledgements.markdown */,
+				68693194AD734C6DA938BF12FB0A0DDF /* Pods-LocalAuthenticationManager_Example-acknowledgements.plist */,
+				D7340597FC261E0C2F24BE8E4808080D /* Pods-LocalAuthenticationManager_Example-dummy.m */,
+				E0D824EEDCC1EB9C481890F635C49C3C /* Pods-LocalAuthenticationManager_Example-frameworks.sh */,
+				7D62D31747C850F7AA10D7C59640503F /* Pods-LocalAuthenticationManager_Example-resources.sh */,
+				BC3617C82512C25960113C13C836C38D /* Pods-LocalAuthenticationManager_Example-umbrella.h */,
+				E09D254DD76E9BDD46FDA420E536FC30 /* Pods-LocalAuthenticationManager_Example.debug.xcconfig */,
+				A5B01C53D20A9891B8C7102C50FEF748 /* Pods-LocalAuthenticationManager_Example.release.xcconfig */,
+			);
+			name = "Pods-LocalAuthenticationManager_Example";
+			path = "Target Support Files/Pods-LocalAuthenticationManager_Example";
+			sourceTree = "<group>";
+		};
+		C55DBF2B68DA1C75853835E896E54A3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A49C8F4588222BE926324BCC939C6696 /* Pods-LocalAuthenticationManager_Example */,
+				E42F5053069635CADA010596B3FA71C7 /* Pods-LocalAuthenticationManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D7456AEBA5B3F0AC8987A2336B5B523A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCE5EBC12E860BACB13C77637ED31A4 /* Info.plist */,
+				FE6F7E563C2C48ECDE20E90AB8E5A374 /* LocalAuthenticationManager.modulemap */,
+				D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */,
+				075219170621BB400F494476EEA762ED /* LocalAuthenticationManager-dummy.m */,
+				6239589DF36884F243D7E32B24B09325 /* LocalAuthenticationManager-prefix.pch */,
+				8C17FCEBFD5584676BCCD51184225EBC /* LocalAuthenticationManager-umbrella.h */,
+				D02991CB9803C1427545B1D172C9FF62 /* ResourceBundle-LocalAuthenticationManager-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocalAuthenticationManager";
+			sourceTree = "<group>";
+		};
+		DAF35B1CEC291B1D3911D422C1C01618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F17F3AA58071AEBE43A21250DAFD3 /* LocalAuthenticationManager.bundle */,
+				FE2AE42215BCAFA0E1A3B161BAF98C4C /* LocalAuthenticationManager.framework */,
+				84611ADC634364798C0867146D990F96 /* Masonry.framework */,
+				E6FD402B2865F51CFE8EA77F1851BD6B /* Pods_LocalAuthenticationManager_Example.framework */,
+				4775D100AA5A196B0EA3A77EC76A3B8A /* Pods_LocalAuthenticationManager_Tests.framework */,
+				FFB1E4F15668EF80FD41C2F4A8F07EEF /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E42F5053069635CADA010596B3FA71C7 /* Pods-LocalAuthenticationManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC7E7DAD5C16A7663FC9A5F4E5E7FC9 /* Info.plist */,
+				CEE69A3D72340BBE4E00A227F4AF1B1F /* Pods-LocalAuthenticationManager_Tests.modulemap */,
+				FD761D1FB2FD2D2A13A6EC0EE941A6FE /* Pods-LocalAuthenticationManager_Tests-acknowledgements.markdown */,
+				CB2FD45DA9FF3EF230BD1F594C9DA687 /* Pods-LocalAuthenticationManager_Tests-acknowledgements.plist */,
+				41134F870870FCDD69900B7FEBECA3F2 /* Pods-LocalAuthenticationManager_Tests-dummy.m */,
+				1D288CCDC72B4348697CF85D1F219236 /* Pods-LocalAuthenticationManager_Tests-frameworks.sh */,
+				8ECE5BC91285264063CF9461CFBBA145 /* Pods-LocalAuthenticationManager_Tests-resources.sh */,
+				0C5F47AE694B9BF07A4D27B10455C323 /* Pods-LocalAuthenticationManager_Tests-umbrella.h */,
+				8BB40DAB4BB1CC26FF81BDE32F1F6DD8 /* Pods-LocalAuthenticationManager_Tests.debug.xcconfig */,
+				20FD237EE82D14B1FA8628F0DE6C6026 /* Pods-LocalAuthenticationManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-LocalAuthenticationManager_Tests";
+			path = "Target Support Files/Pods-LocalAuthenticationManager_Tests";
+			sourceTree = "<group>";
+		};
+		F8BC7BE1E54D2F3EA6B3C0D66423810C /* LocalAuthenticationManager */ = {
+			isa = PBXGroup;
+			children = (
+				22CD828E5EC474BE396ADB52952D9541 /* LAManager.h */,
+				F654C73CD1163179B56B2984900A218C /* LAManager.m */,
+				337CF22C8F649408156B8FD6984D6126 /* LAVerifyView.h */,
+				4F7D98D499F1A3DE952B0B82A64CE880 /* LAVerifyView.m */,
+				A537CD10BC2A7BF6A2408B8CB3503B72 /* LAVerifyViewController.h */,
+				721C69C64EAF3B08AE089C04ACA42224 /* LAVerifyViewController.m */,
+				B443737396649D91D73A22E26516B277 /* UIImage+STint.h */,
+				1447A203FBC73C499C72C88F47FD11B7 /* UIImage+STint.m */,
+				5B1BDBBF56555B1EF6ABA82DA44257C5 /* Resources */,
+				D7456AEBA5B3F0AC8987A2336B5B523A /* Support Files */,
+			);
+			name = LocalAuthenticationManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9D687EA05C896DC4D8A4A3325D3C694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC068A63862FCE482CCA1BFA275944D /* Masonry.framework */,
+				06D28F3924BDE0018D7086EDEF02C838 /* SVProgressHUD.framework */,
+				6E87688F9BF4D64DC399CF55EF308152 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49BCD9DFE556104444E832B7CDC8F429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C42CF28E29731A01AD25519F8A510 /* LAManager.h in Headers */,
+				7D0D7F1C1EF2A9C6ED121BD1D4D5CF6B /* LAVerifyView.h in Headers */,
+				98114567C7E79A6FF583974E4A929C98 /* LAVerifyViewController.h in Headers */,
+				C520D099CAA947C7BD9FAD622011D0E0 /* LocalAuthenticationManager-umbrella.h in Headers */,
+				3DDF50AF47A54A77FE0933E1B92F35C0 /* UIImage+STint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6D74125BE673CEDF982599568729D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A606CFCE907B170A160507D3727E3B8E /* MASCompositeConstraint.h in Headers */,
+				3147B8FEF0D607CD7D6EF911539DF3EA /* MASConstraint+Private.h in Headers */,
+				1CAD5A867E7C941E8189235D4537DCBD /* MASConstraint.h in Headers */,
+				0091E6BF3EBBE8A74F61DD6CD1C64548 /* MASConstraintMaker.h in Headers */,
+				5FF907188881D335F50259F9D6EFF7C7 /* MASLayoutConstraint.h in Headers */,
+				0764C110E14403C834CD76C04A014F29 /* Masonry-umbrella.h in Headers */,
+				24A34AFF5A25B86977E853D24DA82B55 /* Masonry.h in Headers */,
+				197642D1D3CED4B20133F1AAB0F4AD32 /* MASUtilities.h in Headers */,
+				2D2CC94226143186C554E7CAB7F8AA9C /* MASViewAttribute.h in Headers */,
+				31A5FCA6ADE6B088010B7C1C76F78A60 /* MASViewConstraint.h in Headers */,
+				EFFAB140181136CB06FB011B05CAF0D6 /* NSArray+MASAdditions.h in Headers */,
+				FB0998C00A744F6A6C4150C8B841D036 /* NSArray+MASShorthandAdditions.h in Headers */,
+				282A2BB003968A396CAB479D74BB06AE /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				21DC4BDE15BBE3062ABEBA3D603A32B9 /* View+MASAdditions.h in Headers */,
+				996EDC9B73135F618DAB3DEEE3610E25 /* View+MASShorthandAdditions.h in Headers */,
+				69C96A36CB38BE998C68CF1DBCB5C271 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9BBD47B1C10D155C778D9152D9A9D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8156F58D3F415214BE078C9D1635CC65 /* SVIndefiniteAnimatedView.h in Headers */,
+				C6F787E8A903EC54BFAB54DE925F0894 /* SVProgressAnimatedView.h in Headers */,
+				442B6C376450E0587A487D17954A1D84 /* SVProgressHUD-umbrella.h in Headers */,
+				37B432103EE73A780E7D5A1998D6D9B5 /* SVProgressHUD.h in Headers */,
+				9477A2BEFFBF82B53C07990C02694AA1 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C876250039A9F25441F9459FA3E8D1EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECB022766A955411E0481328CC9284A /* Pods-LocalAuthenticationManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E376CC7CF45E471E4C88E95BF88CA140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76D386C513549697178C33E769DB97F /* Pods-LocalAuthenticationManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BADDEA6D777EF9EE4CC1047A5239D2C /* Pods-LocalAuthenticationManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7257B1E881C956DACC7B32FD72CCF760 /* Build configuration list for PBXNativeTarget "Pods-LocalAuthenticationManager_Tests" */;
+			buildPhases = (
+				2789D21AF5E59FF66BC897EEDBCE0559 /* Sources */,
+				A85D6395E1784A616F75E2DB7B564FD7 /* Frameworks */,
+				E376CC7CF45E471E4C88E95BF88CA140 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LocalAuthenticationManager_Tests";
+			productName = "Pods-LocalAuthenticationManager_Tests";
+			productReference = 4775D100AA5A196B0EA3A77EC76A3B8A /* Pods_LocalAuthenticationManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75D975CC9677870653D77A38349A465E /* LocalAuthenticationManager-LocalAuthenticationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBEF6BF7109748775FA2A6B1B042CE0 /* Build configuration list for PBXNativeTarget "LocalAuthenticationManager-LocalAuthenticationManager" */;
+			buildPhases = (
+				08866BC5D97C5858B870657A96F46D73 /* Sources */,
+				4E79FBCF240F70B4A30D2336969AE8A1 /* Frameworks */,
+				BD4BF0C77E1245C489E18D105699F6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocalAuthenticationManager-LocalAuthenticationManager";
+			productName = "LocalAuthenticationManager-LocalAuthenticationManager";
+			productReference = 5A8F17F3AA58071AEBE43A21250DAFD3 /* LocalAuthenticationManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B264FBC04B65BE4057728E4C7F20CE21 /* LocalAuthenticationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44B68178D777A8022CE3A16AA15C9AD /* Build configuration list for PBXNativeTarget "LocalAuthenticationManager" */;
+			buildPhases = (
+				6F0C6DC54B3E5F1D58755B7D43B6F9ED /* Sources */,
+				ED07247937025762B35B13EDAD9A7529 /* Frameworks */,
+				291A652D396148B546F3FB5976BB8ADB /* Resources */,
+				49BCD9DFE556104444E832B7CDC8F429 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7677309F3124A4FE0343EF4B4337F00 /* PBXTargetDependency */,
+				B552F2239DD52D6FDB23BA46D8922661 /* PBXTargetDependency */,
+				E1314A7A41849F3124E0DEB796D5C0EC /* PBXTargetDependency */,
+			);
+			name = LocalAuthenticationManager;
+			productName = LocalAuthenticationManager;
+			productReference = FE2AE42215BCAFA0E1A3B161BAF98C4C /* LocalAuthenticationManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C27FF8429DAF30ACF1723C1286914E41 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C368BC032585E23942875A4171169C7 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				D46C6CE7B18209EC073B460982993264 /* Sources */,
+				85C0612345F736A5C826AFF9EA2199E8 /* Frameworks */,
+				7E6D74125BE673CEDF982599568729D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 84611ADC634364798C0867146D990F96 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4817CD90113C2DF971529CBC048E7BB /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03522162CDF058953756BA207B03D827 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				3F837A88700B3F8F5A7313F8C24735D3 /* Sources */,
+				73BDC43BC3E4F5765F7CE5ED2B874101 /* Frameworks */,
+				BF9BBD47B1C10D155C778D9152D9A9D0 /* Headers */,
+				918FCE4DFDCE404025C193AEC4E5B3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = FFB1E4F15668EF80FD41C2F4A8F07EEF /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F969205615FEC1CE4A61D5A86D1F8886 /* Pods-LocalAuthenticationManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BE9F1AA3786AC8313BFE2998A3DBF3 /* Build configuration list for PBXNativeTarget "Pods-LocalAuthenticationManager_Example" */;
+			buildPhases = (
+				4CA122D5227FEA7EC6AD1D57061FBE18 /* Sources */,
+				9D238189EE7AF990B4ADFB9E69CA1B10 /* Frameworks */,
+				C876250039A9F25441F9459FA3E8D1EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E677B8D79C7B1344D3CD3B0E8F51891 /* PBXTargetDependency */,
+				B578CE9732050788FADD05713AAE78B8 /* PBXTargetDependency */,
+				3DF6A92082716AFDA62A22A486E3C4E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocalAuthenticationManager_Example";
+			productName = "Pods-LocalAuthenticationManager_Example";
+			productReference = E6FD402B2865F51CFE8EA77F1851BD6B /* Pods_LocalAuthenticationManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DAF35B1CEC291B1D3911D422C1C01618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B264FBC04B65BE4057728E4C7F20CE21 /* LocalAuthenticationManager */,
+				75D975CC9677870653D77A38349A465E /* LocalAuthenticationManager-LocalAuthenticationManager */,
+				C27FF8429DAF30ACF1723C1286914E41 /* Masonry */,
+				F969205615FEC1CE4A61D5A86D1F8886 /* Pods-LocalAuthenticationManager_Example */,
+				6BADDEA6D777EF9EE4CC1047A5239D2C /* Pods-LocalAuthenticationManager_Tests */,
+				F4817CD90113C2DF971529CBC048E7BB /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291A652D396148B546F3FB5976BB8ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F00FA810620BAB6BDC4CEAE81FCAF /* LocalAuthenticationManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918FCE4DFDCE404025C193AEC4E5B3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E96A90B97FD28BE16B238E9FBECD52 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BF0C77E1245C489E18D105699F6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7037AF4867297C6B815381DFFB23A8 /* account_pic_head.png in Resources */,
+				33BA3076698BD92F00C388403A187877 /* fingerprint.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08866BC5D97C5858B870657A96F46D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2789D21AF5E59FF66BC897EEDBCE0559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285A3AEC99FC8F9D304F9A3F3A38D722 /* Pods-LocalAuthenticationManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F837A88700B3F8F5A7313F8C24735D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DABCCA4DAC8A0856EC68264D1D1E00 /* SVIndefiniteAnimatedView.m in Sources */,
+				DFF74C46284D46698B85486A1472913D /* SVProgressAnimatedView.m in Sources */,
+				FBE4E5EF3C2064072EA09417D4C8D656 /* SVProgressHUD-dummy.m in Sources */,
+				F22CB71FE9D3D0DB822A87985E3BE547 /* SVProgressHUD.m in Sources */,
+				8545FD104C075BF245F36ABAD821FAC5 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA122D5227FEA7EC6AD1D57061FBE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F7DB3F6157214E94F8C3AFBBA4640 /* Pods-LocalAuthenticationManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0C6DC54B3E5F1D58755B7D43B6F9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA278BDDA9E80D228527800FED19026 /* LAManager.m in Sources */,
+				8C70FFBDF1ACF2D5DD646B9DE5C6D0EA /* LAVerifyView.m in Sources */,
+				CCB2ED6168ABB7400C45D3663A33B4C2 /* LAVerifyViewController.m in Sources */,
+				CAF5EB12E7301369FED0683BE2383153 /* LocalAuthenticationManager-dummy.m in Sources */,
+				5C07BE8A63CCD2FB0BC38CDA5900C614 /* UIImage+STint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46C6CE7B18209EC073B460982993264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6391BC3CCEEBD6439788DEC605CB587B /* MASCompositeConstraint.m in Sources */,
+				85534D5FB0BDEB45D597132E16F2F672 /* MASConstraint.m in Sources */,
+				CA679B85677F74E4F11F21CC4B8690CB /* MASConstraintMaker.m in Sources */,
+				C665BF02DB1DC5189887B55C4E17D556 /* MASLayoutConstraint.m in Sources */,
+				B17661C02BA1D823CC9E62E50F22200F /* Masonry-dummy.m in Sources */,
+				CAD9B78932A5374317F5EDF11AC16190 /* MASViewAttribute.m in Sources */,
+				110F540AE1BE85E4DAD7150FEC9A5AAD /* MASViewConstraint.m in Sources */,
+				DEADD809E0ABDBD17504527753E37F58 /* NSArray+MASAdditions.m in Sources */,
+				6950A872B330E40912B74C7877F3E905 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				ECA83DFCFDA50208FAB946F9295C2FB3 /* View+MASAdditions.m in Sources */,
+				83D537F0CDE42B0FF914B493A67D4D40 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF6A92082716AFDA62A22A486E3C4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = F4817CD90113C2DF971529CBC048E7BB /* SVProgressHUD */;
+			targetProxy = 27828259F3E8C3AFFD47EFE6734D345D /* PBXContainerItemProxy */;
+		};
+		5E677B8D79C7B1344D3CD3B0E8F51891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocalAuthenticationManager;
+			target = B264FBC04B65BE4057728E4C7F20CE21 /* LocalAuthenticationManager */;
+			targetProxy = 5E3729BC98A79B1650F5AC8212DB7057 /* PBXContainerItemProxy */;
+		};
+		B552F2239DD52D6FDB23BA46D8922661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = C27FF8429DAF30ACF1723C1286914E41 /* Masonry */;
+			targetProxy = C5B25BFE52D703476789C9F35A82225D /* PBXContainerItemProxy */;
+		};
+		B578CE9732050788FADD05713AAE78B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = C27FF8429DAF30ACF1723C1286914E41 /* Masonry */;
+			targetProxy = 48BC3FD889BB075884F785FFA1DB9845 /* PBXContainerItemProxy */;
+		};
+		E1314A7A41849F3124E0DEB796D5C0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = F4817CD90113C2DF971529CBC048E7BB /* SVProgressHUD */;
+			targetProxy = BAC5C027124474D3804A87782009B233 /* PBXContainerItemProxy */;
+		};
+		F7677309F3124A4FE0343EF4B4337F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LocalAuthenticationManager-LocalAuthenticationManager";
+			target = 75D975CC9677870653D77A38349A465E /* LocalAuthenticationManager-LocalAuthenticationManager */;
+			targetProxy = F928E57C59DE83DC13C6ED495899308E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		084C278FFBF4C5ECD5C4D99B8EAA50DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E9D3AB7F354D07C0AD9557FC9C7C26 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A568EA2309509E4AE631EC3F39ECF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B01C53D20A9891B8C7102C50FEF748 /* Pods-LocalAuthenticationManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Example/Pods-LocalAuthenticationManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LocalAuthenticationManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B3267FADD09D80D703F17E0A7C6D5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FD237EE82D14B1FA8628F0DE6C6026 /* Pods-LocalAuthenticationManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Tests/Pods-LocalAuthenticationManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LocalAuthenticationManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44641B2C8A01432B142A736C556B1DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4125982559F7551735E193D3D53B565 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DB12E07E74FA1FE906F6A65BA22E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalAuthenticationManager/LocalAuthenticationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalAuthenticationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalAuthenticationManager/LocalAuthenticationManager.modulemap";
+				PRODUCT_NAME = LocalAuthenticationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		734B6A34A9A8FE177B94F79720D534B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LocalAuthenticationManager";
+				INFOPLIST_FILE = "Target Support Files/LocalAuthenticationManager/ResourceBundle-LocalAuthenticationManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LocalAuthenticationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		75FF9C5E31CE000A48C2D41209F41656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09D254DD76E9BDD46FDA420E536FC30 /* Pods-LocalAuthenticationManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Example/Pods-LocalAuthenticationManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LocalAuthenticationManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92D44B8FEA6CD9EF8A2F126FEE6A32E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E9D3AB7F354D07C0AD9557FC9C7C26 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B341A78A71A7071ACBF70BA8768B36B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4125982559F7551735E193D3D53B565 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3783DACEF3C1F82C4A63140A95DFA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LocalAuthenticationManager";
+				INFOPLIST_FILE = "Target Support Files/LocalAuthenticationManager/ResourceBundle-LocalAuthenticationManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LocalAuthenticationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EF3045CD805BF10E7B1F63F61BD8F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9106F7D3BCBA86133084D57BFCD0591 /* LocalAuthenticationManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalAuthenticationManager/LocalAuthenticationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalAuthenticationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalAuthenticationManager/LocalAuthenticationManager.modulemap";
+				PRODUCT_NAME = LocalAuthenticationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3F0082D2B94F9F27DAB8915A403023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB40DAB4BB1CC26FF81BDE32F1F6DD8 /* Pods-LocalAuthenticationManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalAuthenticationManager_Tests/Pods-LocalAuthenticationManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LocalAuthenticationManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03522162CDF058953756BA207B03D827 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341A78A71A7071ACBF70BA8768B36B1 /* Debug */,
+				44641B2C8A01432B142A736C556B1DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBEF6BF7109748775FA2A6B1B042CE0 /* Build configuration list for PBXNativeTarget "LocalAuthenticationManager-LocalAuthenticationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734B6A34A9A8FE177B94F79720D534B6 /* Debug */,
+				E3783DACEF3C1F82C4A63140A95DFA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BE9F1AA3786AC8313BFE2998A3DBF3 /* Build configuration list for PBXNativeTarget "Pods-LocalAuthenticationManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF9C5E31CE000A48C2D41209F41656 /* Debug */,
+				0A568EA2309509E4AE631EC3F39ECF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C368BC032585E23942875A4171169C7 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D44B8FEA6CD9EF8A2F126FEE6A32E1 /* Debug */,
+				084C278FFBF4C5ECD5C4D99B8EAA50DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7257B1E881C956DACC7B32FD72CCF760 /* Build configuration list for PBXNativeTarget "Pods-LocalAuthenticationManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F0082D2B94F9F27DAB8915A403023 /* Debug */,
+				0B3267FADD09D80D703F17E0A7C6D5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44B68178D777A8022CE3A16AA15C9AD /* Build configuration list for PBXNativeTarget "LocalAuthenticationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB12E07E74FA1FE906F6A65BA22E505 /* Debug */,
+				EF3045CD805BF10E7B1F63F61BD8F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

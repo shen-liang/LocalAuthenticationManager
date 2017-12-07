@@ -1,0 +1,6 @@
+framework module LocalAuthenticationManager {
+  umbrella header "LocalAuthenticationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

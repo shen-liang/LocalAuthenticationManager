@@ -7,6 +7,8 @@
 //
 
 #import "RDViewController.h"
+#import <LocalAuthenticationManager/LAManager.h>
+#import <LocalAuthenticationManager/LAVerifyViewController.h>
 
 @interface RDViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +30,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)validButton:(id)sender {
+    
+    LAVerifyViewController *dvc = [[LAVerifyViewController alloc] init];
+    
+    [self presentViewController:dvc animated:YES completion:^{
+        
+    }];
+    
+}
 @end
